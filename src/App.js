@@ -34,7 +34,9 @@ function App() {
     <div className="App">
       <div>
       <Navbar className= "Navbar" color="light" light expand="md">
-        <NavbarBrand >Home / Souichi Kitai</NavbarBrand>
+        <NavbarBrand >
+        <Link to={'/'} style={{color: 'black'}}>Stock Administrator</Link>
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -64,11 +66,13 @@ function App() {
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
+      
     </div>
 
     </div>
     <Switch>
-      <Route exact path = '/' component={top} />
+      <Route exact path = "/" component={top} />
+      
       <Route path = "/resume" component={resume} />
       <Route path = "/project1" component={project1} />
       <Route path = "/project2" component={project2}/>
