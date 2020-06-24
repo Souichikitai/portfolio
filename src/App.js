@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       <div>
       <Navbar className= "Navbar" color="light" light expand="md">
-        <NavbarBrand href="/">Home / Souichi Kitai</NavbarBrand>
+        <NavbarBrand >Home / Souichi Kitai</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
