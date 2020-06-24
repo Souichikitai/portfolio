@@ -35,7 +35,7 @@ function App() {
       <div>
       <Navbar className= "Navbar" color="light" light expand="md">
         <NavbarBrand >
-        <Link to={'/portfolio'} style={{color: 'black'}}>Stock Administrator</Link>
+        <Link to={'/portfolio'} style={{color: 'black'}}>Home</Link>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
