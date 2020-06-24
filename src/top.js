@@ -36,9 +36,9 @@ export default class top extends Component{
                     </div>        
                     <hr className="my-2" />        
                     <div className="button_top">
-                    <p className="lead">
+                    {/* <p className="lead">
                     <Button color="primary"><Link to={'/resume'} style={{color: 'black'}}>Look my resume</Link></Button>
-                    </p>
+                    </p> */}
                     </div>
                     <h5>My email: souichi.kitai@gmail.com</h5>
                     <h5>click here : <a href="https://www.facebook.com/profile.php?id=100005599240163">facebook</a></h5>
