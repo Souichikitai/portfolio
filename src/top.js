@@ -3,7 +3,9 @@ import './App.css';
 import {
     Jumbotron, Button
   } from 'reactstrap';
-
+  import {
+    Link
+  } from 'react-router-dom'
 export default class top extends Component{
 
     constructor(props){
@@ -28,14 +30,14 @@ export default class top extends Component{
                     <hr className="my-2" />
                     <li>22 years old -  Male</li>
                     <li>Japanese</li>
-                    <li>Born in Japane, currently in Australia</li>
+                    <li>Born in Japan, currently in Australia</li>
                     <li>3 years experiences of Programing</li>
                     <li>Intested in web development, Network administration, Cyber security</li>
                     </div>        
                     <hr className="my-2" />        
                     <div className="button_top">
                     <p className="lead">
-                    <Button color="primary" href="/resume">Look my resume</Button>
+                    <Button color="primary"><Link to={'/resume'} style={{color: 'black'}}>Look my resume</Link></Button>
                     </p>
                     </div>
                     <h5>My email: souichi.kitai@gmail.com</h5>
