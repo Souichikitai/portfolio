@@ -21,18 +21,16 @@ export default class top extends Component{
         return(
             <div className="App">
                 <Jumbotron className="jb">
-                    <h1 className="display-3">Hello, Welcome to my portfolio</h1>
-                    <h3 className="my-1">Sohichi Kitai</h3>
+                    <h1 className="display-3">ポートフォリオ</h1>
+                    <h3 className="my-1">Souichi Kitai</h3>
                     <div>
-                    <img className="ore-picture" src={require('./images/ore.jpg')}></img>
+                    {/* <img className="ore-picture" src={require('./images/ore.jpg')}></img> */}
 
-                    <h4 className="my-1">Quick introduction</h4>
+                    <h4 className="my-1">自己紹介</h4>
                     <hr className="my-2" />
-                    <li>22 years old -  Male</li>
-                    <li>Japanese</li>
-                    <li>Born in Japan, currently in Australia</li>
-                    <li>3 years experiences of Programing</li>
-                    <li>Intested in web development, Network administration, Cyber security</li>
+                    <li>22才</li>
+                    <li>コンピューターサイエンス専攻</li>
+                    <li>C#, ASP.NET Entity Framework, Javascript(React, jquery)</li>
                     </div>        
                     <hr className="my-2" />        
                     <div className="button_top">
